@@ -1,1 +1,300 @@
-.button-main{padding:13px 30px;background-color:red;text-decoration:none;color:#fff;border-radius:3px;margin-right:20px;transition:all .3s ease;cursor:pointer;background-color:rgba(255,255,255,.33);position:relative;top:0}.ios-button{background-color:#ed3a83}.android-button{background-color:#fc9638}.ios-button:active,.ios-button:hover{background-color:#ff74ad;text-decoration:none;color:#fff}.android-button:active,.android-button:hover{background-color:#f9b16e;text-decoration:none;color:#fff}.learn-more:active,.learn-more:hover{background-color:rgba(255,255,255,.47);text-decoration:none;color:#fff}.learn-more:active{position:relative;top:5px}.buttons{margin-top:20px}.gradient-line{background:#f55b9a;background:linear-gradient(180deg,#f55b9a 0,#f9b16e 100%);width:2px;left:35px;height:100vh;position:fixed;z-index:10000000}.info-sec{height:90vh;background:url(/assets/images/friends.webp);background-position:0 0;background-repeat:no-repeat;background-size:cover;background-attachment:scroll}.overlapper{position:relative;z-index:100}.overlay2{position:absolute;top:100vh;left:0;height:90vh;width:100%;background-color:rgba(136,110,52,.65);opacity:.8;z-index:1}.icon-position{position:relative;left:10px;top:-.5px}.icon-position2{position:relative;left:10px;top:.5px}.btn-grad{background-image:linear-gradient(to right,#f55b9a 0,#f9b16e 51%,#dd5e89 100%)}.btn-grad{padding:13px 30px;cursor:pointer;text-decoration:none;margin-right:10px;border-radius:4px;text-align:center;transition:.5s;background-size:200% auto;color:#fff;box-shadow:0 0 2px #eee;display:inline-block;font-weight:700}.btn-grad:hover{background-position:right center;color:#fff;text-decoration:none}.btn-grad2{background-image:linear-gradient(to right,#e96ef9 0,#5bd7f5 51%,#e96ef9 100%)}.btn-grad3{background-image:linear-gradient(to right,#d0d0d0 0,#fff 51%,#ffd8e5 100%);color:#000}.btn-grad3:hover{color:#000}.block{width:100%;height:90vh;position:relative;overflow:hidden;font-size:16px}.block h2{position:relative;display:block;text-align:center;margin:0;top:50%;transform:translateY(-50%);font-size:10vw;color:#fff;font-weight:400}.img-parallax{width:100vmax;z-index:-1;position:absolute;top:0;left:50%;transform:translate(-50%,0);pointer-events:none}::-moz-selection{color:#000;background:#ff0}::selection{color:#000;background:#ff0}*{box-sizing:border-box}.video-background{background:#000;top:0;right:0;bottom:0;left:0;z-index:-99}.video-background iframe,.video-foreground{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}#vidtop-content{top:0;color:#fff}.vid-info{position:absolute;top:0;right:0;width:33%;background:rgba(0,0,0,.3);color:#fff;padding:1rem;font-family:Avenir,Helvetica,sans-serif}.vid-info h1{font-size:2rem;font-weight:700;margin-top:0;line-height:1.2}.vid-info a{display:block;color:#fff;text-decoration:none;background:rgba(0,0,0,.5);transition:.6s background;border-bottom:none;margin:1rem auto;text-align:center}@media (max-width:575.98px){.btn-grad{display:block;margin-bottom:10px;padding:20px 30px}.img-parallax{height:100%}.gradient-line,.gradient-line2{display:none}.overlay2{background-color:rgba(16,12,8,.85)}}@media (max-width:767.98px){.btn-grad{display:block;padding:20px 30px;margin-bottom:10px}.img-parallax{height:100%}.gradient-line,.gradient-line2{display:none}.overlay2{background-color:rgba(16,12,8,.85)}}@media (max-width:991.98px){.btn-grad{display:block;padding:20px 30px;margin-bottom:10px}.img-parallax{height:100%}.gradient-line,.gradient-line2{display:none}.overlay2{background-color:rgba(16,12,8,.85)}}
+.button-main {
+  padding: 13px 30px;
+  background-color: red;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-right: 20px;
+  transition: all .3s ease;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, .33);
+  position: relative;
+  top: 0
+}
+
+.ios-button {
+  background-color: #ed3a83
+}
+
+.android-button {
+  background-color: #fc9638
+}
+
+.ios-button:active,
+.ios-button:hover {
+  background-color: #ff74ad;
+  text-decoration: none;
+  color: #fff
+}
+
+.android-button:active,
+.android-button:hover {
+  background-color: #f9b16e;
+  text-decoration: none;
+  color: #fff
+}
+
+.learn-more:active,
+.learn-more:hover {
+  background-color: rgba(255, 255, 255, .47);
+  text-decoration: none;
+  color: #fff
+}
+
+.learn-more:active {
+  position: relative;
+  top: 5px
+}
+
+.buttons {
+  margin-top: 20px
+}
+
+.gradient-line {
+  background: #f55b9a;
+  background: linear-gradient(180deg, #f55b9a 0, #f9b16e 100%);
+  width: 2px;
+  left: 35px;
+  height: 100vh;
+  position: fixed;
+  z-index: 10000000
+}
+
+.info-sec {
+  height: 90vh;
+  background: url(/assets/images/friends.webp);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll
+}
+
+.overlapper {
+  position: relative;
+  z-index: 100
+}
+
+.overlay2 {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(136, 110, 52, .65);
+  opacity: .8;
+  z-index: 1
+}
+
+.icon-position {
+  position: relative;
+  left: 10px;
+  top: -.5px
+}
+
+.icon-position2 {
+  position: relative;
+  left: 10px;
+  top: .5px
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #f55b9a 0, #f9b16e 51%, #dd5e89 100%)
+}
+
+.btn-grad {
+  padding: 13px 40px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  text-align: center;
+  transition: .5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 2px #eee;
+  display: inline-block;
+  font-weight: 700
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none
+}
+
+.btn-grad2 {
+  background-image: linear-gradient(to right, #e96ef9 0, #5bd7f5 51%, #e96ef9 100%)
+}
+
+.btn-grad3 {
+  background-image: linear-gradient(to right, #d0d0d0 0, #fff 51%, #ffd8e5 100%);
+  color: #000
+}
+
+.btn-grad3:hover {
+  color: #000
+}
+
+.block {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px
+}
+
+.block h2 {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10vw;
+  color: #fff;
+  font-weight: 400
+}
+
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  pointer-events: none
+}
+
+::-moz-selection {
+  color: #000;
+  background: #ff0
+}
+
+::selection {
+  color: #000;
+  background: #ff0
+}
+
+* {
+  box-sizing: border-box
+}
+
+.video-background {
+  background: #000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99
+}
+
+.video-background iframe,
+.video-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none
+}
+
+#vidtop-content {
+  top: 0;
+  color: #fff
+}
+
+.vid-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  background: rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 1rem;
+  font-family: Avenir, Helvetica, sans-serif
+}
+
+.vid-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  line-height: 1.2
+}
+
+.vid-info a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0, 0, 0, .5);
+  transition: .6s background;
+  border-bottom: none;
+  margin: 1rem auto;
+  text-align: center
+}
+
+@media (max-width:575.98px) {
+  .btn-grad {
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px 30px
+  }
+  .img-parallax {
+        height: 100% !important;
+  }
+  
+  .block {
+    height: 100vh;
+  }
+  .gradient-line,
+  .gradient-line2 {
+    display: none
+  }
+  .overlay2 {
+    background-color: rgba(16, 12, 8, .85);
+    height: 100vh;
+  }
+  
+  h1.display-3 {
+    font-size: 24pt;
+  }
+
+}
+
+@media (max-width:767.98px) {
+  .btn-grad {
+    display: block;
+    padding: 20px 30px;
+    margin-bottom: 10px
+  }
+  .img-parallax {
+        height: 100vh;
+
+  }
+  .gradient-line,
+  .gradient-line2 {
+    display: none
+  }
+  .overlay2 {
+    background-color: rgba(16, 12, 8, .85)
+  }
+
+}
+
+@media (max-width:991.98px) {
+  .btn-grad {
+    display: block;
+    padding: 20px 30px;
+    margin-bottom: 10px
+  }
+  .img-parallax {
+    height: 100vh;
+  }
+  .gradient-line,
+  .gradient-line2 {
+    display: none
+  }
+  .overlay2 {
+    background-color: rgba(16, 12, 8, .85)
+  }
+
+}
