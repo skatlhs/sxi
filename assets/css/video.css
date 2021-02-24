@@ -1,7 +1,6 @@
 header {
   position: relative;
-  background-color: pink;
-  background: url(/assets/images/videobackground.jpg);
+  background: #000000;
   background-size: 100% 100%;
   height: 100vh;
   min-height: 25rem;
@@ -36,7 +35,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: #000;
-  opacity: .5;
+  opacity: .3;
   z-index: 1
 }
 
